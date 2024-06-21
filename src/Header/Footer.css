@@ -90,10 +90,8 @@ footer .cr-con{
 }
 
 @media(max-width:900px) {
-    .footer {
-        
-    }
     .f-item-con{
+        padding: 1.5rem 0rem;
         justify-content: center;
         justify-items: center;
         display: grid;
@@ -129,6 +127,7 @@ footer .cr-con{
     }
     .logo {
         justify-self: center;
+        /*somehow it is accessing Contact.css and using it*/
     }
     .logo img{
         width: 60%;
