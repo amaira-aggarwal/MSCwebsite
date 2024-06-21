@@ -262,6 +262,7 @@ textarea.input {
   margin: 0.7rem 0;
   align-items: center;
   font-size: 0.95rem;
+  justify-content: center;
 }
 
 .icon {
@@ -281,6 +282,7 @@ textarea.input {
 .social-media-icons {
   display: flex;
   margin-top: 0.5rem;
+  justify-content: center;
 }
 
 .social-media-icons a {
@@ -405,6 +407,7 @@ a{
   .text,
   .information,
   .social-media p {
+    flex-wrap: wrap;
     font-size: 0.8rem;
   }
 
