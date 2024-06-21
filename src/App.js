@@ -53,14 +53,14 @@ function App() {
       <Route path="/googlegenerationscholarship" element={<Blog/>}/>
       <Route path="/bootcamp" element={<Bootcamp/>}/>
       <Route path="/bootcamp24" element={<Bootcamp24/>}/>
-      <Route path="/aiml" element={<AIML/>}/>
-      <Route path="/appd" element={<AppD/>}/>
-      <Route path="/arvr" element={<ARVR/>}/>
-      <Route path="/cyber" element={<Cyber/>}/>
-      <Route path="/dataanal" element={<DataAnal/>}/>
+      <Route path="/bootcamp24/aiml" element={<AIML/>}/>
+      <Route path="/bootcamp24/appd" element={<AppD/>}/>
+      <Route path="/bootcamp24/arvr" element={<ARVR/>}/>
+      <Route path="/bootcamp24/cyber" element={<Cyber/>}/>
+      <Route path="/bootcamp24/dataanal" element={<DataAnal/>}/>
       <Route path="/prodmgmt" element={<ProdMgmt/>}/>
-      <Route path="/web3" element={<Web3/>}/>
-      <Route path="/webd" element={<WebD/>}/>
+      <Route path="/bootcamp24/web3" element={<Web3/>}/>
+      <Route path="/bootcamp24/webd" element={<WebD/>}/>
       <Route path="/mlsaapplicationprocess" element={<BlogKhushiSharma/>}/>
       <Route path="/smarthackathon(ferozpur)" element={<BlogAasthaSinghal/>}/>
       <Route path="/upevent" element={<Upcoming/>}/>

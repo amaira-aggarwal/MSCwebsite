@@ -72,7 +72,7 @@
     .menu {
       flex-direction: column;
       background-color: #041e55;
-      align-items: start;
+      align-items: center;
       position: absolute;
       top: 110px;
       left: 0;
