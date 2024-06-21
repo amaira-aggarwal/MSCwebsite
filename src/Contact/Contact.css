@@ -440,7 +440,7 @@ a{
     top:3.5vh;
   }
  .logo{
-  margin-bottom:0rem;;
+  margin-bottom:0rem;
  }
  .col h3{
   margin-bottom:1rem;
@@ -488,13 +488,6 @@ a{
   color:red ;
 }
 
-
-.navButtonbg{
- /* height:35px;
-  width:35px;*/
-/*  align-self: flex-end;*/
-}
-
 .navButton{
   font-size:30px;
   font-weight: 600;
@@ -533,13 +526,6 @@ a{
   position: fixed;
   z-index: 10;
 }
-.logo_name{
-/*  right: 60px;*/
-/*margin-left: 100px;*/
-/*right: 2px;*/
-/*z-index: 998;*/
-}
-
 .navname1{
   position: fixed;
   right:7% ;
