@@ -8,10 +8,10 @@ function DataAnal_details () {
 
     const [isOpen, setIsOpen] = useState([false, false, false, false]);
     const loremTexts = [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-        'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...',
-        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...',
-        'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore...'
+        'To be released by the mentors soon',
+        'To be released by the mentors soon',
+        'To be released by the mentors soon',
+        'To be released by the mentors soon'
     ];
 
     const toggleDropdown = (index) => {
@@ -34,22 +34,14 @@ function DataAnal_details () {
             <div className="mentorsection">
                 <div className="circlementor">
                     <h3>Data Analytics Mentors</h3>
-                    <Teamleft image={Logo} name="Mentor 01" content="Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate"/>
-                    <Teamright image={Logo} name="Mentor 02" content="Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt 
-                        ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis 
-                        nostrud exercitation ullamco laboris 
-                        nisi ut aliquip ex ea commodo consequat. 
-                        Duis aute irure dolor in reprehenderit in voluptate"/>
+                    <Teamleft image={Logo} name="Mentor 01"
+                        content="All the details about the mentors would be published here soon.
+                        Thank you for waiting. While you wait, it is advised to learn and explore as much as you can before the bootcamp starts so that you are up to date with the generic terms :)"
+                    />
+                    <Teamright image={Logo} name="Mentor 02"
+                        content="All the details about the mentors would be published here soon.
+                        Thank you for waiting. While you wait, it is advised to learn and explore as much as you can before the bootcamp starts so that you are up to date with the generic terms :)"
+                    />
                 </div>
             </div>
 

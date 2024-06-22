@@ -58,7 +58,7 @@ function App() {
       <Route path="/bootcamp24/arvr" element={<ARVR/>}/>
       <Route path="/bootcamp24/cyber" element={<Cyber/>}/>
       <Route path="/bootcamp24/dataanal" element={<DataAnal/>}/>
-      <Route path="/prodmgmt" element={<ProdMgmt/>}/>
+      <Route path="/bootcamp24/prodmgmt" element={<ProdMgmt/>}/>
       <Route path="/bootcamp24/web3" element={<Web3/>}/>
       <Route path="/bootcamp24/webd" element={<WebD/>}/>
       <Route path="/mlsaapplicationprocess" element={<BlogKhushiSharma/>}/>

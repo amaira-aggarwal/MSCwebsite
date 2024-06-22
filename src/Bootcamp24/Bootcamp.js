@@ -4,6 +4,7 @@ import "./Bootcamp.css";
 import Teamleft from "./assets/Teamleft";
 import Teamright from "./assets/Teamright";
 import Bootintro from "./assets/Bootintro";
+import Bootdetails from './assets/Bootdetails';
 
 function Bootcamp24() {
   return (
@@ -88,6 +89,11 @@ function Bootcamp24() {
 
         </div>
       </div>
+
+      <div className="boot">
+        <Bootdetails/>
+      </div>
+
     </>
   );
 }
