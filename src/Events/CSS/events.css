@@ -1,13 +1,5 @@
 
 .events{
-    
-    /* color: white;
-    text-align: center;
-    padding: 20px;
-    height: 150px;
-    background-color: navy;
-    border-radius:5px ; */
-    
     display: flex;
     flex-direction: column;
 
@@ -15,5 +7,4 @@
 
 .event_pic>img{
     width: 400px;
-    /* margin: 00px; */
 }

@@ -9,12 +9,6 @@
 }
 
 .prizes_head{
-    /* text-align: center;
-    color: white;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 70vw;
     margin: 5vw auto;
     justify-content: center;
@@ -29,11 +23,9 @@
     letter-spacing: 7px;
     font-family: 'Press Start 2P';
     font-weight: 400;
-    /*Create overlap*/
     
     margin: 0;
     line-height: 0;
-    /*Animation*/
     
     animation: glitch1 2.5s infinite;
 }
@@ -47,7 +39,6 @@
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
 }
-/*Keyframes*/
 
 @keyframes glitch1 {
   0% {

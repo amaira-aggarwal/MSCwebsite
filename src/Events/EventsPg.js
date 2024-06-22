@@ -18,12 +18,10 @@ const EventsPg = () => {
             <div className="calender_container">
                 <Calender eventid={seteventId}/>
             </div>
-            {/* <div className="events_container">
-                <Events />
-            </div> */}
+            {}
         </div>
         <div className="right_container">
-            {/* <EventCol eventId={eventid} seteventId={seteventId} /> */}
+            {}
             <Eventcol eventId={eventid} seteventId={seteventId}/>
         </div>
         

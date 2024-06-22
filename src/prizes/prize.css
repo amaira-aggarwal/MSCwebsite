@@ -9,7 +9,6 @@
     width:330px;
     color: white;
     background-color: rgba(128, 128, 128, 0.355);
-    /* font-family: 'Exo 2'; */
     font-family: 'Nasalization', sans-serif;
     font-weight: bold;
     margin-bottom: 5vw;
@@ -17,8 +16,6 @@
 
 .img>img{
     height: 200px;
-   
-    
 }
 
 .pos{

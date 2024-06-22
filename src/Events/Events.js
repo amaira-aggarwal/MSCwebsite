@@ -14,9 +14,7 @@ const Events = ({id, img_url, content}) => {
         <div className="event_detail">
           <h4>Date, Name</h4>
         </div>
-        {/* <div className="about_event">
-          <p>{content}</p>
-        </div> */}
+        {}
       </div>
     </div>
   )

@@ -1,11 +1,11 @@
 import React from 'react';
-import teamData from './teamsData'; // Import the team data
-import Card from './Card'; // Import the Card component
+import teamData from './teamsData';
+import Card from './Card';
 
 const MainSection = () => {
   return (
     <div className="containerteam">
-      {/* <span className='big-circle-team'></span> */}
+      {}
       {teamData.map((member, index) => (
         <Card
           key={index}

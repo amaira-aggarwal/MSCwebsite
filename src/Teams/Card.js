@@ -14,7 +14,7 @@ const Card = ({ name, imageSrc, profession, socialLinks }) => {
       <div className="card__social" id="card-social">
         <div className="card__social-control">
 
-          {/* icons dont show */}
+          {}
           <ul className="card__social-list">
             {socialLinks.map((link, index) => (
               <li key={index} className="card__social-item">
@@ -25,14 +25,8 @@ const Card = ({ name, imageSrc, profession, socialLinks }) => {
             ))}
           </ul>
 
-          {/* substitute icons w numbers, now it works, but does not show w css */}
-          {/* <ul className="card__social-list">
-            {socialLinks.map((link, index) => (
-              <a key={index} href={link.url} target="_blank" className="card__social-link">
-                  {index + 1}
-              </a>
-              ))}
-              </ul> */}
+          {}
+          {}
 
         </div>
       </div>

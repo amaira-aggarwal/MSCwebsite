@@ -42,7 +42,3 @@ const Footer = () => {
 }
 
 export default Footer;
-
-
-/*<span className='app-name'>
-<span className='app-initial'>MSC</span></span>*/

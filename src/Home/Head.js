@@ -7,7 +7,7 @@ function Head()
         <>
                                
                 <div  className="headsection">
-                {/* <span className="big-circle"></span> */}
+                {}
                     <div className="imagehead">
                 <img src={home}className="imageheadsection" data-aos="fade-right"data-aos-duration="500"></img>
                 </div>

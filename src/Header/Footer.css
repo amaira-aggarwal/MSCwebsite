@@ -32,7 +32,7 @@ footer .footer-title{
 footer ul{ 
     padding-left: 1.75rem;
     color: white;
-    font-size: 0.875rem/* 14px */;
+    font-size: 0.875rem;
     line-height: 1.25rem;
     margin-top: .5rem;
 }
@@ -99,7 +99,6 @@ footer .cr-con{
     }
     .useful-links{
         width:100vw;
-        /* margin-left: -20vw; */   
     }
     .footer-title{
         text-align: center;
@@ -127,7 +126,6 @@ footer .cr-con{
     }
     .logo {
         justify-self: center;
-        /*somehow it is accessing Contact.css and using it*/
     }
     .logo img{
         width: 60%;

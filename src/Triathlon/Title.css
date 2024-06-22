@@ -69,11 +69,9 @@
     letter-spacing: 8px;
     font-family: 'Press Start 2P';
     font-weight: 400;
-    /*Create overlap*/
     
     margin: 0;
     line-height: 0;
-    /*Animation*/
     
     animation: glitch1 2.5s infinite;
   }
@@ -85,11 +83,9 @@
     letter-spacing: 8px;
     font-family: 'Press Start 2P';
     font-weight: 300;
-    /*Create overlap*/
     
     margin: 0;
     line-height: 0;
-    /*Animation*/
     
     animation: glitch1 2.5s infinite;
   }
@@ -113,7 +109,6 @@
     color: #f16f6f;
     animation: glitch3 2.5s infinite;
   }
-  /*Keyframes*/
   
   @keyframes glitch1 {
     0% {
@@ -400,8 +395,6 @@
  } }
 
  .hero-button {
-    /* display: flex; */
-    /* margin-top: 5px; */
     justify-content: right;
     margin-bottom: 15px ;
   }
@@ -465,7 +458,6 @@
     }
   
     .hero-button {
-      /* display: flex; */
       margin-top: 10px;
       justify-content:center;
     }
