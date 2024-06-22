@@ -24,11 +24,17 @@ function DataAnal_details () {
             <div className="domaintitle"><h1>Data Analytics</h1></div>
 
             <div className="about">
-                Turn data into decisions!
-                Clean, analyze, and visualize data
-                with tools like Python and Tableau,
-                transforming raw numbers into
-                meaningful insights.
+                Participants will delve into the world of data analytics,
+                beginning with an introduction to data collection and cleaning
+                techniques. They will learn how to use popular tools like Excel,
+                SQL, and Python libraries (Pandas, NumPy) to manipulate and
+                analyze data. The curriculum will include data visualization
+                with tools such as Tableau, Power BI, and Matplotlib, helping
+                participants turn raw data into meaningful insights. Additionally,
+                the bootcamp will cover statistical analysis, exploratory data
+                analysis (EDA), and an introduction to machine learning concepts.
+                Participants will also explore best practices for data storytelling
+                and presenting their findings effectively.
             </div>
 
             <div className="mentorsection">
