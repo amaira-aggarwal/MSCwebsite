@@ -24,7 +24,6 @@ footer .footer-title{
     font-size: 1.25rem;
     line-height: 1.75rem;
     color: white;
-    border-left: 4px solid  #041e55;
     padding-left: 0rem;
     height: fit-content;
 }
@@ -95,7 +94,7 @@ footer .cr-con{
         justify-content: center;
         justify-items: center;
         display: grid;
-        grid-template-columns: repeat(1, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
     .useful-links{
         width:100vw;
@@ -117,6 +116,7 @@ footer .cr-con{
     }
     .help-sec{
         width:100vw;
+        order: 4;
     }
     .help-ul {
         padding: 0;
@@ -126,9 +126,29 @@ footer .cr-con{
     }
     .logo {
         justify-self: center;
+        align-content: center;
     }
     .logo img{
-        width: 60%;
+        width: 70%;
         justify-content: center;
+    }
+    .g-i-t {
+        order: 3;
+    }
+}
+
+@media(max-width:500px) {
+    .f-item-con{
+        padding: 1.5rem 0rem;
+        justify-content: center;
+        justify-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .help-sec {
+        order: 3;
+    }
+    .g-i-t {
+        order: 4;
     }
 }
