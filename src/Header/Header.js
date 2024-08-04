@@ -7,15 +7,16 @@ const Header = () => {
   return (
     <header className="sticky  top-0 w-full bg-[#041e55] shadow-md z-1000">
       <nav className="flex justify-between items-center p-5">
-        <div className="logoheader">
-          <img src={MSC_Logo} alt="MSC Logo" className="w-16" />
+        <div className="logoheader flex space-x-3">
+          <div>
+            <img src={MSC_Logo} alt="MSC Logo" className="w-16" />
+          </div>
+          <div className="py-3">
+            <p className="text-white justify-start text-xl">
+              Microsoft Student Chapter IGDTUW
+            </p>
+          </div>
         </div>
-        <div className="flex ">
-          <p className="text-white justify-start">
-            Microsoft Student Chapter IGDTUW
-          </p>
-        </div>
-
         <input type="checkbox" id="menu-toggle" className="hidden" />
         <label
           htmlFor="menu-toggle"
@@ -84,7 +85,7 @@ const Header = () => {
               Become an MLSA Today
             </a>
           </li>
-          <div className="flex justify-center items-center space-x-5 bg-blue">
+          <div className="flex justify-center items-center space-x-5 bg-blue z-[1000]">
             <form
               action=""
               className="relative bg-blue p-1.5 rounded-full border-4 border-blue search-form w-12 h-12"
