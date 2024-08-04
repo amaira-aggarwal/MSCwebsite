@@ -1,0 +1,25 @@
+/* App.css */
+.search-form {
+  transition: width 1s;
+}
+
+.search-form:hover {
+  width: 300px;
+}
+
+.search-input {
+  display: none;
+}
+
+.search-form:hover .search-input {
+  display: block;
+}
+
+.search-icon {
+  transition: all 1s;
+}
+
+.search-form:hover .search-icon {
+  background-color: #8c52ff;
+  color: white;
+}
